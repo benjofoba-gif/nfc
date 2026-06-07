@@ -3,7 +3,16 @@ description: "A new Flutter project."
 publish_to: "none"
 version: 1.0.0+1
 environment:
-  sdk: ^3.11.5
+  sdk: ^3.11.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite: ^2.4.0
+  path: ^1.8.4
+  nfc_manager: ^4.0.0
+  ndef_record: ^1.4.2
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
